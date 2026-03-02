@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6"
+    },
+    "exclude": ["node_modules"],
+    "models": [
+    {
+      "title": "Open WebUI",
+      "provider": "openai",
+      "model": "claude-4-5-sonnet",
+      "apiKey": "sk-581d219a9e244c1a9480d1e202220ea7",
+      "apiBase": "https://chat.atko.ai/api/v1"
+    }
+  ]
+  }
